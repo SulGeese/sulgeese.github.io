@@ -1,0 +1,41 @@
+/* Date picker container */
+.date-picker {
+  color: #fff;
+  background: #2d2d2d;
+  border: 1px solid #555;
+  padding: 10px;
+}
+
+/* Date input */
+input[type="date"] {
+  background-color: #3c3c3c;
+  color: #eee;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Placeholder text color */
+input[type="date"]::-webkit-datetime-edit-text,
+input[type="date"]::-webkit-datetime-edit-month-field,
+input[type="date"]::-webkit-datetime-edit-day-field,
+input[type="date"]::-webkit-datetime-edit-year-field {
+  color: #aaa;
+}
+
+/* Dropdown select background and text */
+select {
+  color: #eee;
+  background-color: #3c3c3c;
+}
+
+/* Remove spin buttons */
+input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+/* Arrow icon color */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
