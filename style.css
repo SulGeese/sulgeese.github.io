@@ -6,6 +6,19 @@
   padding: 10px;
 }
 
+.date-picker label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.date-picker input[type="date"] {
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+}
+
 /* Date input */
 input[type="date"] {
   background-color: #3c3c3c;
